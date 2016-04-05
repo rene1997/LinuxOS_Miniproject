@@ -1,0 +1,14 @@
+button .btn{text-align:left;}
+.console-background{
+  background: #000;
+  border: 5px groove #ccc;
+  color: #ccc;
+  font-family: monospace;
+}
+.console{
+  background: #000;
+  color: #ccc;
+  display: block;
+  padding: 5px;
+  font-family: monospace;
+}

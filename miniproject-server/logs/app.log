@@ -1,0 +1,1334 @@
+[March 8th 2016, 10:12:17 pm] Listening server on port 8080
+[March 8th 2016, 10:12:17 pm] GET /
+[March 8th 2016, 10:12:17 pm] POST /api/login
+[March 8th 2016, 10:12:17 pm] POST /api/login
+[March 8th 2016, 10:12:17 pm] GET /api/login
+[March 8th 2016, 10:12:17 pm] POST /api/login
+[March 8th 2016, 10:12:17 pm] POST /api/login
+[March 8th 2016, 10:12:17 pm] POST /apiv2/login
+[March 8th 2016, 10:12:17 pm] POST /apiv2/login
+[March 8th 2016, 10:12:17 pm] POST /apiv2/login
+[March 8th 2016, 10:32:02 pm] Listening server on port 8080
+[March 8th 2016, 10:32:02 pm] POST /apiv2/login
+[March 8th 2016, 10:32:02 pm] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] Listening server on port 8080
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/freq
+[March 9th 2016, 7:45:49 am] GET /apiv2/freq
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] POST /apiv2/login
+[March 9th 2016, 7:45:49 am] GET /apiv2/freq
+[March 9th 2016, 7:45:49 am] GET /apiv2/freq
+[March 9th 2016, 7:45:49 am] testuser
+[March 9th 2016, 7:45:49 am] testuser
+[March 9th 2016, 7:45:49 am] Userid: testuser
+[March 10th 2016, 10:39:32 pm] Listening server on port 8080
+[March 10th 2016, 10:57:43 pm] Listening server on port 8080
+[March 10th 2016, 10:57:43 pm] GET /apiv2/freq
+[March 10th 2016, 10:57:43 pm] testuser
+[March 10th 2016, 10:57:43 pm] testuser
+[March 10th 2016, 10:57:43 pm] Userid: testuser
+[March 10th 2016, 10:57:43 pm] GET /apiv2/getusers
+[March 10th 2016, 10:57:43 pm] testuser
+[March 10th 2016, 10:57:43 pm] testuser
+[March 10th 2016, 10:57:43 pm] Userid: testuser
+[March 10th 2016, 10:57:43 pm] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1062:14)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at Connection.connect (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\Connection.js:123:18)
+    at D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\routes_apiv2.js:116:12
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\index.js:330:12)
+[March 10th 2016, 11:02:49 pm] Listening server on port 8080
+[March 10th 2016, 11:02:49 pm] GET /apiv2/getusers
+[March 10th 2016, 11:02:49 pm] testuser
+[March 10th 2016, 11:02:49 pm] testuser
+[March 10th 2016, 11:02:49 pm] Userid: testuser
+[March 10th 2016, 11:02:49 pm] Error: getaddrinfo ENOTFOUND http://megamanager.nl:3306 http://megamanager.nl:3306:3306
+    at errnoException (dns.js:26:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at Connection.connect (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\Connection.js:123:18)
+    at D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\routes_apiv2.js:116:12
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\index.js:330:12)
+[March 10th 2016, 11:03:23 pm] Listening server on port 8080
+[March 10th 2016, 11:03:23 pm] GET /apiv2/getusers
+[March 10th 2016, 11:03:23 pm] testuser
+[March 10th 2016, 11:03:23 pm] testuser
+[March 10th 2016, 11:03:23 pm] Userid: testuser
+[March 10th 2016, 11:03:23 pm] Error: getaddrinfo ENOTFOUND http://megamanager.nl http://megamanager.nl:3306
+    at errnoException (dns.js:26:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at Connection.connect (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\Connection.js:123:18)
+    at D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\routes_apiv2.js:116:12
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\index.js:330:12)
+[March 10th 2016, 11:05:22 pm] Listening server on port 8080
+[March 10th 2016, 11:05:22 pm] GET /apiv2/getusers
+[March 10th 2016, 11:05:22 pm] testuser
+[March 10th 2016, 11:05:22 pm] testuser
+[March 10th 2016, 11:05:22 pm] Userid: testuser
+[March 10th 2016, 11:05:22 pm] Error: getaddrinfo ENOTFOUND https://megamanager.nl https://megamanager.nl:3306
+    at errnoException (dns.js:26:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:77:26)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at Connection.connect (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\Connection.js:123:18)
+    at D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\routes_apiv2.js:116:12
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\index.js:330:12)
+[March 10th 2016, 11:20:33 pm] Listening server on port 8080
+[March 10th 2016, 11:20:33 pm] GET /apiv2/getusers
+[March 10th 2016, 11:20:33 pm] testuser
+[March 10th 2016, 11:20:33 pm] testuser
+[March 10th 2016, 11:20:33 pm] Userid: testuser
+[March 10th 2016, 11:20:33 pm] Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Handshake.ErrorPacket (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\sequences\Handshake.js:101:18)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at Connection.connect (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\Connection.js:123:18)
+    at D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\routes_apiv2.js:116:12
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\index.js:330:12)
+[March 10th 2016, 11:21:33 pm] Listening server on port 8080
+[March 10th 2016, 11:21:33 pm] GET /apiv2/getusers
+[March 10th 2016, 11:21:33 pm] testuser
+[March 10th 2016, 11:21:33 pm] testuser
+[March 10th 2016, 11:21:33 pm] Userid: testuser
+[March 10th 2016, 11:21:33 pm] The solution is: 
+[March 10th 2016, 11:23:32 pm] Listening server on port 8080
+[March 10th 2016, 11:23:32 pm] GET /apiv2/getusers
+[March 10th 2016, 11:23:32 pm] testuser
+[March 10th 2016, 11:23:32 pm] testuser
+[March 10th 2016, 11:23:32 pm] Userid: testuser
+[March 10th 2016, 11:23:32 pm] The solution is: 
+[March 10th 2016, 11:27:21 pm] Listening server on port 8080
+[March 10th 2016, 11:27:21 pm] GET /apiv2/getusers
+[March 10th 2016, 11:27:21 pm] testuser
+[March 10th 2016, 11:27:21 pm] testuser
+[March 10th 2016, 11:27:21 pm] Userid: testuser
+[March 10th 2016, 11:27:21 pm] The solution is: 
+[March 10th 2016, 11:27:21 pm] The solution is: 
+[March 10th 2016, 11:27:50 pm] Listening server on port 8080
+[March 10th 2016, 11:27:50 pm] GET /apiv2/getusers
+[March 10th 2016, 11:27:50 pm] testuser
+[March 10th 2016, 11:27:50 pm] testuser
+[March 10th 2016, 11:27:50 pm] Userid: testuser
+[March 10th 2016, 11:27:50 pm] The solution is: undefined
+[March 10th 2016, 11:27:50 pm] The solution is: [object Object]
+[March 10th 2016, 11:29:01 pm] Listening server on port 8080
+[March 10th 2016, 11:29:01 pm] GET /apiv2/getusers
+[March 10th 2016, 11:29:01 pm] testuser
+[March 10th 2016, 11:29:01 pm] testuser
+[March 10th 2016, 11:29:01 pm] Userid: testuser
+[March 10th 2016, 11:29:01 pm] Data received from Db:
+
+[March 10th 2016, 11:29:01 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 10th 2016, 11:31:05 pm] Listening server on port 8080
+[March 10th 2016, 11:31:05 pm] GET /apiv2/getusers
+[March 10th 2016, 11:31:05 pm] testuser
+[March 10th 2016, 11:31:05 pm] testuser
+[March 10th 2016, 11:31:05 pm] Userid: testuser
+[March 10th 2016, 11:31:05 pm] Data received from Db:
+
+[March 10th 2016, 11:31:05 pm] ret
+[March 10th 2016, 11:31:37 pm] Listening server on port 8080
+[March 10th 2016, 11:31:37 pm] GET /apiv2/getusers
+[March 10th 2016, 11:31:37 pm] testuser
+[March 10th 2016, 11:31:37 pm] testuser
+[March 10th 2016, 11:31:37 pm] Userid: testuser
+[March 10th 2016, 11:31:37 pm] Data received from Db:
+
+[March 10th 2016, 11:31:37 pm] ret
+[March 10th 2016, 11:32:49 pm] Listening server on port 8080
+[March 10th 2016, 11:32:49 pm] GET /apiv2/getusers
+[March 10th 2016, 11:32:49 pm] testuser
+[March 10th 2016, 11:32:49 pm] testuser
+[March 10th 2016, 11:32:49 pm] Userid: testuser
+[March 10th 2016, 11:32:49 pm] The solution is: 
+[March 10th 2016, 11:32:49 pm] The field is: 
+[March 10th 2016, 11:34:13 pm] Listening server on port 8080
+[March 10th 2016, 11:34:13 pm] GET /apiv2/getusers
+[March 10th 2016, 11:34:13 pm] testuser
+[March 10th 2016, 11:34:13 pm] testuser
+[March 10th 2016, 11:34:13 pm] Userid: testuser
+[March 10th 2016, 11:34:13 pm] The solution is: 
+[March 10th 2016, 11:34:13 pm] The field is: 
+[March 10th 2016, 11:34:33 pm] Listening server on port 8080
+[March 10th 2016, 11:34:33 pm] GET /apiv2/getusers
+[March 10th 2016, 11:34:33 pm] testuser
+[March 10th 2016, 11:34:33 pm] testuser
+[March 10th 2016, 11:34:33 pm] Userid: testuser
+[March 10th 2016, 11:34:33 pm] The solution is: 
+[March 10th 2016, 11:34:33 pm] The field is: 
+[March 10th 2016, 11:36:51 pm] Listening server on port 8080
+[March 10th 2016, 11:36:51 pm] GET /apiv2/getusers
+[March 10th 2016, 11:36:51 pm] testuser
+[March 10th 2016, 11:36:51 pm] testuser
+[March 10th 2016, 11:36:51 pm] Userid: testuser
+[March 10th 2016, 11:36:51 pm] ReferenceError: callback is not defined
+    at Query._callback (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\routes_apiv2.js:120:2)
+    at Query.Sequence.end (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query._handleFinalResultPacket (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\sequences\Query.js:144:8)
+    at Query.EofPacket (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\sequences\Query.js:128:8)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+[March 10th 2016, 11:37:05 pm] Listening server on port 8080
+[March 10th 2016, 11:37:19 pm] Listening server on port 8080
+[March 10th 2016, 11:37:19 pm] GET /apiv2/getusers
+[March 10th 2016, 11:37:19 pm] testuser
+[March 10th 2016, 11:37:19 pm] testuser
+[March 10th 2016, 11:37:19 pm] Userid: testuser
+[March 10th 2016, 11:37:19 pm] The solution is: 
+[March 10th 2016, 11:37:19 pm] The field is: 
+[March 10th 2016, 11:39:14 pm] Listening server on port 8080
+[March 10th 2016, 11:39:14 pm] GET /apiv2/getusers
+[March 10th 2016, 11:39:14 pm] testuser
+[March 10th 2016, 11:39:14 pm] testuser
+[March 10th 2016, 11:39:14 pm] Userid: testuser
+[March 10th 2016, 11:39:14 pm] Post Titles: 
+[March 10th 2016, 11:39:14 pm] Post Titles: 
+[March 10th 2016, 11:39:14 pm] Post Titles: 
+[March 10th 2016, 11:39:14 pm] Post Titles: 
+[March 10th 2016, 11:39:14 pm] Post Titles: 
+[March 10th 2016, 11:39:14 pm] Post Titles: 
+[March 10th 2016, 11:41:19 pm] Listening server on port 8080
+[March 10th 2016, 11:41:19 pm] GET /apiv2/getusers
+[March 10th 2016, 11:41:19 pm] testuser
+[March 10th 2016, 11:41:19 pm] testuser
+[March 10th 2016, 11:41:19 pm] Userid: testuser
+[March 10th 2016, 11:41:19 pm] Post Titles: 
+[March 10th 2016, 11:41:19 pm] Davey
+[March 10th 2016, 11:41:19 pm] Post Titles: 
+[March 10th 2016, 11:41:19 pm] Joey
+[March 10th 2016, 11:41:19 pm] Post Titles: 
+[March 10th 2016, 11:41:19 pm] Tim
+[March 10th 2016, 11:41:19 pm] Post Titles: 
+[March 10th 2016, 11:41:19 pm] Sander
+[March 10th 2016, 11:41:19 pm] Post Titles: 
+[March 10th 2016, 11:41:19 pm] Joli
+[March 10th 2016, 11:41:19 pm] Post Titles: 
+[March 10th 2016, 11:41:19 pm] Melany
+[March 10th 2016, 11:42:36 pm] Listening server on port 8080
+[March 10th 2016, 11:42:36 pm] GET /apiv2/getusers
+[March 10th 2016, 11:42:36 pm] testuser
+[March 10th 2016, 11:42:36 pm] testuser
+[March 10th 2016, 11:42:36 pm] Userid: testuser
+[March 10th 2016, 11:42:36 pm] Post Titles: 
+[March 10th 2016, 11:42:36 pm] Davey
+[March 10th 2016, 11:42:36 pm] [{"gebruikers_naam":"daveym","voornaam":"Davey","achternaam":"Mathijssen"},{"gebruikers_naam":"joey","voornaam":"Joey","achternaam":"Sol"},{"gebruikers_naam":"tim","voornaam":"Tim","achternaam":"Schijvenaars"},{"gebruikers_naam":"sander","voornaam":"Sander","achternaam":"Bogers"},{"gebruikers_naam":"joli","voornaam":"Joli","achternaam":"van Kruijsdijk"},{"gebruikers_naam":"melany","voornaam":"Melany","achternaam":"Eshuis"}]
+[March 10th 2016, 11:42:36 pm] Post Titles: 
+[March 10th 2016, 11:42:36 pm] Joey
+[March 10th 2016, 11:42:36 pm] [{"gebruikers_naam":"daveym","voornaam":"Davey","achternaam":"Mathijssen"},{"gebruikers_naam":"joey","voornaam":"Joey","achternaam":"Sol"},{"gebruikers_naam":"tim","voornaam":"Tim","achternaam":"Schijvenaars"},{"gebruikers_naam":"sander","voornaam":"Sander","achternaam":"Bogers"},{"gebruikers_naam":"joli","voornaam":"Joli","achternaam":"van Kruijsdijk"},{"gebruikers_naam":"melany","voornaam":"Melany","achternaam":"Eshuis"}]
+[March 10th 2016, 11:42:36 pm] Post Titles: 
+[March 10th 2016, 11:42:36 pm] Tim
+[March 10th 2016, 11:42:36 pm] [{"gebruikers_naam":"daveym","voornaam":"Davey","achternaam":"Mathijssen"},{"gebruikers_naam":"joey","voornaam":"Joey","achternaam":"Sol"},{"gebruikers_naam":"tim","voornaam":"Tim","achternaam":"Schijvenaars"},{"gebruikers_naam":"sander","voornaam":"Sander","achternaam":"Bogers"},{"gebruikers_naam":"joli","voornaam":"Joli","achternaam":"van Kruijsdijk"},{"gebruikers_naam":"melany","voornaam":"Melany","achternaam":"Eshuis"}]
+[March 10th 2016, 11:42:36 pm] Post Titles: 
+[March 10th 2016, 11:42:36 pm] Sander
+[March 10th 2016, 11:42:36 pm] [{"gebruikers_naam":"daveym","voornaam":"Davey","achternaam":"Mathijssen"},{"gebruikers_naam":"joey","voornaam":"Joey","achternaam":"Sol"},{"gebruikers_naam":"tim","voornaam":"Tim","achternaam":"Schijvenaars"},{"gebruikers_naam":"sander","voornaam":"Sander","achternaam":"Bogers"},{"gebruikers_naam":"joli","voornaam":"Joli","achternaam":"van Kruijsdijk"},{"gebruikers_naam":"melany","voornaam":"Melany","achternaam":"Eshuis"}]
+[March 10th 2016, 11:42:36 pm] Post Titles: 
+[March 10th 2016, 11:42:36 pm] Joli
+[March 10th 2016, 11:42:36 pm] [{"gebruikers_naam":"daveym","voornaam":"Davey","achternaam":"Mathijssen"},{"gebruikers_naam":"joey","voornaam":"Joey","achternaam":"Sol"},{"gebruikers_naam":"tim","voornaam":"Tim","achternaam":"Schijvenaars"},{"gebruikers_naam":"sander","voornaam":"Sander","achternaam":"Bogers"},{"gebruikers_naam":"joli","voornaam":"Joli","achternaam":"van Kruijsdijk"},{"gebruikers_naam":"melany","voornaam":"Melany","achternaam":"Eshuis"}]
+[March 10th 2016, 11:42:36 pm] Post Titles: 
+[March 10th 2016, 11:42:36 pm] Melany
+[March 10th 2016, 11:42:36 pm] [{"gebruikers_naam":"daveym","voornaam":"Davey","achternaam":"Mathijssen"},{"gebruikers_naam":"joey","voornaam":"Joey","achternaam":"Sol"},{"gebruikers_naam":"tim","voornaam":"Tim","achternaam":"Schijvenaars"},{"gebruikers_naam":"sander","voornaam":"Sander","achternaam":"Bogers"},{"gebruikers_naam":"joli","voornaam":"Joli","achternaam":"van Kruijsdijk"},{"gebruikers_naam":"melany","voornaam":"Melany","achternaam":"Eshuis"}]
+[March 10th 2016, 11:44:07 pm] Listening server on port 8080
+[March 10th 2016, 11:44:07 pm] GET /apiv2/getusers
+[March 10th 2016, 11:44:07 pm] testuser
+[March 10th 2016, 11:44:07 pm] testuser
+[March 10th 2016, 11:44:07 pm] Userid: testuser
+[March 10th 2016, 11:44:07 pm] [{"gebruikers_naam":"daveym","voornaam":"Davey","achternaam":"Mathijssen"},{"gebruikers_naam":"joey","voornaam":"Joey","achternaam":"Sol"},{"gebruikers_naam":"tim","voornaam":"Tim","achternaam":"Schijvenaars"},{"gebruikers_naam":"sander","voornaam":"Sander","achternaam":"Bogers"},{"gebruikers_naam":"joli","voornaam":"Joli","achternaam":"van Kruijsdijk"},{"gebruikers_naam":"melany","voornaam":"Melany","achternaam":"Eshuis"}]
+[March 11th 2016, 7:42:45 am] Listening server on port 8080
+[March 11th 2016, 7:42:45 am] GET /apiv2/getusers
+[March 11th 2016, 7:42:45 am] testuser
+[March 11th 2016, 7:42:45 am] testuser
+[March 11th 2016, 7:42:45 am] Userid: testuser
+[March 11th 2016, 7:42:45 am] Error: connect ECONNREFUSED 127.0.0.1:3306
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1062:14)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at Connection.connect (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\Connection.js:123:18)
+    at D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\routes_apiv2.js:116:12
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\express\lib\router\index.js:330:12)
+[March 11th 2016, 7:43:46 am] Listening server on port 8080
+[March 11th 2016, 7:43:46 am] GET /apiv2/getusers
+[March 11th 2016, 7:43:46 am] testuser
+[March 11th 2016, 7:43:46 am] testuser
+[March 11th 2016, 7:43:46 am] Userid: testuser
+[March 11th 2016, 7:43:46 am] [{"gebruikers_naam":"daveym","voornaam":"Davey","achternaam":"Mathijssen"},{"gebruikers_naam":"joey","voornaam":"Joey","achternaam":"Sol"},{"gebruikers_naam":"tim","voornaam":"Tim","achternaam":"Schijvenaars"},{"gebruikers_naam":"sander","voornaam":"Sander","achternaam":"Bogers"},{"gebruikers_naam":"joli","voornaam":"Joli","achternaam":"van Kruijsdijk"},{"gebruikers_naam":"melany","voornaam":"Melany","achternaam":"Eshuis"}]
+[March 11th 2016, 7:43:46 am] GET /apiv2/getusers
+[March 11th 2016, 7:43:46 am] testuser
+[March 11th 2016, 7:43:46 am] testuser
+[March 11th 2016, 7:43:46 am] Userid: testuser
+[March 11th 2016, 7:43:46 am] [{"gebruikers_naam":"daveym","voornaam":"Davey","achternaam":"Mathijssen"},{"gebruikers_naam":"joey","voornaam":"Joey","achternaam":"Sol"},{"gebruikers_naam":"tim","voornaam":"Tim","achternaam":"Schijvenaars"},{"gebruikers_naam":"sander","voornaam":"Sander","achternaam":"Bogers"},{"gebruikers_naam":"joli","voornaam":"Joli","achternaam":"van Kruijsdijk"},{"gebruikers_naam":"melany","voornaam":"Melany","achternaam":"Eshuis"}]
+[March 11th 2016, 7:43:46 am] GET /apiv2/getusers
+[March 11th 2016, 7:43:46 am] testuser
+[March 11th 2016, 7:43:46 am] testuser
+[March 11th 2016, 7:43:46 am] Userid: testuser
+[March 11th 2016, 7:43:46 am] [{"gebruikers_naam":"daveym","voornaam":"Davey","achternaam":"Mathijssen"},{"gebruikers_naam":"joey","voornaam":"Joey","achternaam":"Sol"},{"gebruikers_naam":"tim","voornaam":"Tim","achternaam":"Schijvenaars"},{"gebruikers_naam":"sander","voornaam":"Sander","achternaam":"Bogers"},{"gebruikers_naam":"joli","voornaam":"Joli","achternaam":"van Kruijsdijk"},{"gebruikers_naam":"melany","voornaam":"Melany","achternaam":"Eshuis"}]
+[March 11th 2016, 7:46:40 am] Listening server on port 8080
+[March 11th 2016, 7:46:40 am] GET /apiv2/getusers
+[March 11th 2016, 7:46:40 am] testuser
+[March 11th 2016, 7:46:40 am] testuser
+[March 11th 2016, 7:46:40 am] Userid: testuser
+[March 11th 2016, 7:46:40 am] ReferenceError: json is not defined
+    at Query._callback (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\routes_apiv2.js:127:14)
+    at Query.Sequence.end (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\sequences\Sequence.js:96:24)
+    at Query._handleFinalResultPacket (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\sequences\Query.js:144:8)
+    at Query.EofPacket (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\sequences\Query.js:128:8)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\nodejs\TI33-IWSN-NodeJS-RestServer\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+[March 11th 2016, 7:50:50 am] Listening server on port 8080
+[March 11th 2016, 7:50:50 am] GET /apiv2/getusers
+[March 11th 2016, 7:50:50 am] testuser
+[March 11th 2016, 7:50:50 am] testuser
+[March 11th 2016, 7:50:50 am] Userid: testuser
+[March 11th 2016, 7:50:50 am] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 11th 2016, 11:15:09 pm] Listening server on port 8080
+[March 11th 2016, 11:15:53 pm] Listening server on port 8080
+[March 11th 2016, 11:16:18 pm] Listening server on port 8080
+[March 11th 2016, 11:16:18 pm] POST /apiv2/gethomework
+[March 11th 2016, 11:16:18 pm] testuser
+[March 11th 2016, 11:16:18 pm] testuser
+[March 11th 2016, 11:16:18 pm] Userid: testuser
+[March 11th 2016, 11:16:18 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 11th 2016, 11:16:18 pm] POST /apiv2/gethomework
+[March 11th 2016, 11:16:18 pm] testuser
+[March 11th 2016, 11:16:18 pm] testuser
+[March 11th 2016, 11:16:18 pm] Userid: testuser
+[March 11th 2016, 11:16:18 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 11th 2016, 11:16:18 pm] GET /apiv2/getusers
+[March 11th 2016, 11:16:18 pm] testuser
+[March 11th 2016, 11:16:18 pm] testuser
+[March 11th 2016, 11:16:18 pm] Userid: testuser
+[March 11th 2016, 11:16:18 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 11th 2016, 11:16:18 pm] OPTIONS /apiv2/getusers
+[March 11th 2016, 11:16:18 pm] OPTIONS /apiv2/getusers?1
+[March 11th 2016, 11:16:18 pm] GET /apiv2/getusers?callback=jQuery112007680303286761045_1457740815239&_=1457740815240
+[March 11th 2016, 11:16:18 pm] GET /apiv2/getusers?callback=jQuery112009169274100568146_1457740858089&_=1457740858090
+[March 11th 2016, 11:16:18 pm] GET /apiv2/getusers?callback=jQuery1120020270586386322975_1457740911849&_=1457740911850
+[March 11th 2016, 11:16:18 pm] GET /apiv2/getusers?callback=jQuery1120011848196340724826_1457741013237&_=1457741013238
+[March 11th 2016, 11:16:18 pm] OPTIONS /apiv2/getusers?_=1457741136084
+[March 11th 2016, 11:16:18 pm] GET /apiv2/getusers?callback=jQuery112007886318801902235_1457741180843&_=1457741180844
+[March 11th 2016, 11:16:18 pm] GET /apiv2/getusers
+[March 11th 2016, 11:16:18 pm] GET /favicon.ico
+[March 11th 2016, 11:16:18 pm] OPTIONS /apiv2/getusers?_=1457780001035
+[March 11th 2016, 11:16:18 pm] OPTIONS /apiv2/getusers?_=1457780067884
+[March 11th 2016, 11:16:18 pm] OPTIONS /apiv2/getusers/tt?_=1457780084764
+[March 11th 2016, 11:16:18 pm] GET /apiv2/getusers&callback=jQuery112001265795265790075_1457780096240?_=1457780096241
+[March 11th 2016, 11:16:18 pm] GET /apiv2/getusers&callback=jQuery112001265795265790075_1457780096242?_=1457780096243
+[March 12th 2016, 12:08:41 pm] Listening server on port 8080
+[March 12th 2016, 12:08:41 pm] GET /apiv2/login?_=1457780961464
+[March 12th 2016, 12:08:41 pm] GET /apiv2/login?callback=jQuery112008502131798304617_1457781079779&format=json&_=1457781079780
+[March 12th 2016, 12:08:41 pm] GET /apiv2/login?callback=jQuery112008502131798304617_1457781079781&format=json&_=1457781079782
+[March 12th 2016, 12:08:41 pm] GET /?callback=_testcb&_=1457781268562
+[March 12th 2016, 12:08:41 pm] GET /apiv2/login
+[March 12th 2016, 12:20:19 pm] Listening server on port 80
+[March 12th 2016, 12:21:48 pm] Listening server on port 8080
+[March 12th 2016, 12:21:48 pm] GET /apiv2
+[March 12th 2016, 12:21:48 pm] GET /apiv2/login
+[March 12th 2016, 12:24:27 pm] Listening server on port 8080
+[March 12th 2016, 12:24:27 pm] GET /apiv2/login
+[March 12th 2016, 12:24:51 pm] Listening server on port 8080
+[March 12th 2016, 12:24:51 pm] GET /apiv2/login
+[March 12th 2016, 12:32:39 pm] Listening server on port 8080
+[March 12th 2016, 12:32:39 pm] GET /apiv2
+[March 12th 2016, 12:32:39 pm] GET /apiv2?_=1457782533059
+[March 12th 2016, 12:32:39 pm] GET /apiv2?_=1457782702829
+[March 12th 2016, 12:32:39 pm] GET /apiv2?_=1457782702830
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?callback=jQuery112003872704299025652_1457782757930&_=1457782757931
+[March 12th 2016, 12:32:39 pm] GET /apiv2/login?_=1457782815323
+[March 12th 2016, 12:32:39 pm] GET /apiv2?_=1457782825972
+[March 12th 2016, 12:32:39 pm] GET /apiv2?_=1457782844644
+[March 12th 2016, 12:32:39 pm] GET /apiv2/login?_=1457782859805
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457782892014
+[March 12th 2016, 12:32:39 pm] GET /apiv2?_=1457782908544
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457782951525
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457782951526
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457782988965
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457783061371
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457783061372
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457783270666
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457783270667
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457783391034
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457783393176
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457783393177
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457783412972
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457783419976
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457783502100
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457785768424
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457785782605
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457785807364
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457785845765
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457786728783
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] 
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] 
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] 
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] 
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] 
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] 
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] 
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] 
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] 
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457787005731
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] 
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457787933373
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457787938781
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457788031075
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457788335876
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457788400424
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457788477139
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457788570847
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] 
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457788637933
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] GET /apiv2/getusers?_=1457788875569
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/gethomework
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] testuser
+[March 12th 2016, 12:32:39 pm] Userid: testuser
+[March 12th 2016, 12:32:39 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 12th 2016, 12:32:39 pm] POST /apiv2/login
+[March 21st 2016, 10:15:34 pm] Listening server on port 8080
+[March 21st 2016, 10:43:38 pm] Listening server on port 8080
+[March 21st 2016, 10:43:38 pm] OPTIONS /apiv2/login
+[March 21st 2016, 10:43:38 pm] OPTIONS /apiv2/login
+[March 21st 2016, 10:44:36 pm] Listening server on port 8080
+[March 21st 2016, 10:44:36 pm] OPTIONS /apiv2/login
+[March 21st 2016, 10:44:36 pm] OPTIONS /apiv2/login
+[March 21st 2016, 10:44:36 pm] OPTIONS /apiv2/login
+[March 21st 2016, 10:44:36 pm] POST /apiv2/gethomework
+[March 21st 2016, 10:44:36 pm] testuser
+[March 21st 2016, 10:44:36 pm] testuser
+[March 21st 2016, 10:44:36 pm] Userid: testuser
+[March 21st 2016, 10:44:36 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 21st 2016, 10:44:36 pm] POST /apiv2/login
+[March 21st 2016, 10:44:36 pm] POST /apiv2/login
+[March 21st 2016, 10:44:36 pm] GET /apiv2/getusers?_=1458597055150
+[March 21st 2016, 10:44:36 pm] testuser
+[March 21st 2016, 10:44:36 pm] testuser
+[March 21st 2016, 10:44:36 pm] Userid: testuser
+[March 21st 2016, 10:44:36 pm] POST /apiv2/login
+[March 21st 2016, 10:44:36 pm] GET /apiv2/getusers?_=1458597091457
+[March 21st 2016, 10:44:36 pm] testuser
+[March 21st 2016, 10:44:36 pm] testuser
+[March 21st 2016, 10:44:36 pm] Userid: testuser
+[March 21st 2016, 10:44:36 pm] POST /apiv2/login
+[March 21st 2016, 10:44:36 pm] GET /apiv2/getpowerstatus?_=1458597111152
+[March 21st 2016, 10:44:36 pm] testuser
+[March 21st 2016, 10:44:36 pm] testuser
+[March 21st 2016, 10:44:36 pm] Userid: testuser
+[March 21st 2016, 10:44:36 pm] [object Object]
+[March 21st 2016, 10:59:41 pm] Listening server on port 8080
+[March 21st 2016, 10:59:41 pm] POST /apiv2/login
+[March 21st 2016, 10:59:41 pm] POST /apiv2/login
+[March 21st 2016, 10:59:41 pm] GET /apiv2/getpowerstatus?_=1458597601995
+[March 21st 2016, 10:59:41 pm] testuser
+[March 21st 2016, 10:59:41 pm] testuser
+[March 21st 2016, 10:59:41 pm] Userid: testuser
+[March 21st 2016, 10:59:41 pm] [object Object]
+[March 21st 2016, 10:59:41 pm] POST /apiv2/gethomework
+[March 21st 2016, 10:59:41 pm] testuser
+[March 21st 2016, 10:59:41 pm] testuser
+[March 21st 2016, 10:59:41 pm] Userid: testuser
+[March 21st 2016, 10:59:41 pm] POST /apiv2/login
+[March 21st 2016, 10:59:41 pm] GET /apiv2/getpowerstatus?_=1458597662241
+[March 21st 2016, 10:59:41 pm] testuser
+[March 21st 2016, 10:59:41 pm] testuser
+[March 21st 2016, 10:59:41 pm] Userid: testuser
+[March 21st 2016, 10:59:41 pm] [object Object]
+[March 21st 2016, 10:59:41 pm] GET /apiv2/getpowerstatus?_=1458597662242
+[March 21st 2016, 10:59:41 pm] testuser
+[March 21st 2016, 10:59:41 pm] testuser
+[March 21st 2016, 10:59:41 pm] Userid: testuser
+[March 21st 2016, 10:59:41 pm] [object Object]
+[March 21st 2016, 10:59:41 pm] POST /apiv2/postpower
+[March 21st 2016, 10:59:41 pm] testuser
+[March 21st 2016, 10:59:41 pm] testuser
+[March 21st 2016, 10:59:41 pm] Userid: testuser
+[March 21st 2016, 10:59:41 pm] Error: ER_NO_SUCH_TABLE: Table 'nodejs.power' doesn't exist
+    at Query.Sequence._packetToError (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:201:25)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\routes_apiv2.js:152:12
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:271:10)
+[March 21st 2016, 11:02:28 pm] Listening server on port 8080
+[March 21st 2016, 11:02:28 pm] POST /apiv2/login
+[March 21st 2016, 11:02:28 pm] GET /apiv2/getpowerstatus?_=1458597749108
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] Userid: testuser
+[March 21st 2016, 11:02:28 pm] [object Object]
+[March 21st 2016, 11:02:28 pm] POST /apiv2/postpower
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] Userid: testuser
+[March 21st 2016, 11:02:28 pm] Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'power' at row 1
+    at Query.Sequence._packetToError (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:201:25)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\routes_apiv2.js:152:12
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:271:10)
+[March 21st 2016, 11:02:28 pm] POST /apiv2/login
+[March 21st 2016, 11:02:28 pm] GET /apiv2/getpowerstatus?_=1458597954427
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] Userid: testuser
+[March 21st 2016, 11:02:28 pm] [object Object]
+[March 21st 2016, 11:02:28 pm] POST /apiv2/postpower
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] Userid: testuser
+[March 21st 2016, 11:02:28 pm] Error: ER_TRUNCATED_WRONG_VALUE_FOR_FIELD: Incorrect integer value: '' for column 'power' at row 1
+    at Query.Sequence._packetToError (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:201:25)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\routes_apiv2.js:152:12
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:271:10)
+[March 21st 2016, 11:02:28 pm] POST /apiv2/login
+[March 21st 2016, 11:02:28 pm] GET /apiv2/getpowerstatus?_=1458597998827
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] Userid: testuser
+[March 21st 2016, 11:02:28 pm] [object Object]
+[March 21st 2016, 11:02:28 pm] POST /apiv2/postpower
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] Userid: testuser
+[March 21st 2016, 11:02:28 pm] [object Object]
+[March 21st 2016, 11:02:28 pm] POST /apiv2/postpower
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] Userid: testuser
+[March 21st 2016, 11:02:28 pm] [object Object]
+[March 21st 2016, 11:02:28 pm] POST /apiv2/postpower
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] Userid: testuser
+[March 21st 2016, 11:02:28 pm] [object Object]
+[March 21st 2016, 11:02:28 pm] POST /apiv2/postpower
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] testuser
+[March 21st 2016, 11:02:28 pm] Userid: testuser
+[March 21st 2016, 11:02:28 pm] [object Object]
+[March 21st 2016, 11:09:46 pm] Listening server on port 8080
+[March 21st 2016, 11:09:46 pm] POST /apiv2/login
+[March 21st 2016, 11:09:46 pm] GET /apiv2/getpowerstatus?_=1458598189979
+[March 21st 2016, 11:09:46 pm] testuser
+[March 21st 2016, 11:09:46 pm] testuser
+[March 21st 2016, 11:09:46 pm] Userid: testuser
+[March 21st 2016, 11:09:46 pm] [object Object]
+[March 21st 2016, 11:09:46 pm] POST /apiv2/postpower
+[March 21st 2016, 11:09:46 pm] testuser
+[March 21st 2016, 11:09:46 pm] testuser
+[March 21st 2016, 11:09:46 pm] Userid: testuser
+[March 21st 2016, 11:09:46 pm] [object Object]
+[March 21st 2016, 11:09:46 pm] POST /apiv2/postpower
+[March 21st 2016, 11:09:46 pm] testuser
+[March 21st 2016, 11:09:46 pm] testuser
+[March 21st 2016, 11:09:46 pm] Userid: testuser
+[March 21st 2016, 11:09:46 pm] [object Object]
+[March 21st 2016, 11:14:39 pm] Listening server on port 8080
+[March 21st 2016, 11:14:39 pm] POST /apiv2/login
+[March 21st 2016, 11:14:39 pm] GET /apiv2/get7days?_=1458598483734
+[March 21st 2016, 11:14:39 pm] testuser
+[March 21st 2016, 11:14:39 pm] testuser
+[March 21st 2016, 11:14:39 pm] Userid: testuser
+[March 21st 2016, 11:14:39 pm] Error: ER_SP_DOES_NOT_EXIST: FUNCTION linux.DATEADD does not exist
+    at Query.Sequence._packetToError (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:201:25)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\routes_apiv2.js:175:13
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:271:10)
+[March 21st 2016, 11:14:39 pm] GET /apiv2/get7days?_=1458598483734
+[March 21st 2016, 11:14:39 pm] testuser
+[March 21st 2016, 11:14:39 pm] testuser
+[March 21st 2016, 11:14:39 pm] Userid: testuser
+[March 21st 2016, 11:14:39 pm] Error: ER_SP_DOES_NOT_EXIST: FUNCTION linux.DATEADD does not exist
+    at Query.Sequence._packetToError (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:201:25)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\routes_apiv2.js:175:13
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:271:10)
+[March 21st 2016, 11:23:51 pm] Listening server on port 8080
+[March 21st 2016, 11:23:51 pm] POST /apiv2/login
+[March 21st 2016, 11:23:51 pm] GET /apiv2/get7days?_=1458599037891
+[March 21st 2016, 11:23:51 pm] testuser
+[March 21st 2016, 11:23:51 pm] testuser
+[March 21st 2016, 11:23:51 pm] Userid: testuser
+[March 21st 2016, 11:23:51 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 21st 2016, 11:23:51 pm] GET /apiv2/gettoday?_=1458599037892
+[March 21st 2016, 11:23:51 pm] testuser
+[March 21st 2016, 11:23:51 pm] testuser
+[March 21st 2016, 11:23:51 pm] Userid: testuser
+[March 21st 2016, 11:23:51 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 21st 2016, 11:23:51 pm] POST /apiv2/login
+[March 21st 2016, 11:23:51 pm] GET /apiv2/get7days?_=1458599071721
+[March 21st 2016, 11:23:51 pm] testuser
+[March 21st 2016, 11:23:51 pm] testuser
+[March 21st 2016, 11:23:51 pm] Userid: testuser
+[March 21st 2016, 11:23:51 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 21st 2016, 11:23:51 pm] GET /apiv2/gettoday?_=1458599071722
+[March 21st 2016, 11:23:51 pm] testuser
+[March 21st 2016, 11:23:51 pm] testuser
+[March 21st 2016, 11:23:51 pm] Userid: testuser
+[March 21st 2016, 11:23:51 pm] [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+[March 22nd 2016, 7:50:48 am] Listening server on port 8080
+[March 22nd 2016, 7:50:48 am] POST /apiv2/login
+[March 22nd 2016, 7:50:48 am] GET /apiv2/getpowerstatus?_=1458629477103
+[March 22nd 2016, 7:50:48 am] testuser
+[March 22nd 2016, 7:50:48 am] testuser
+[March 22nd 2016, 7:50:48 am] Userid: testuser
+[March 22nd 2016, 7:50:48 am] Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Handshake.ErrorPacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Handshake.js:101:18)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at Connection.connect (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:123:18)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\routes_apiv2.js:123:13
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:330:12)
+[March 22nd 2016, 7:50:48 am] GET /apiv2/getpowerstatus?_=1458629477103
+[March 22nd 2016, 7:50:48 am] testuser
+[March 22nd 2016, 7:50:48 am] testuser
+[March 22nd 2016, 7:50:48 am] Userid: testuser
+[March 22nd 2016, 7:50:48 am] Error: ER_ACCESS_DENIED_ERROR: Access denied for user ''@'localhost' (using password: NO)
+    at Handshake.Sequence._packetToError (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Handshake.ErrorPacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Handshake.js:101:18)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at Connection.connect (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:123:18)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\routes_apiv2.js:123:13
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:330:12)
+[March 22nd 2016, 7:54:52 am] Listening server on port 8080
+[March 22nd 2016, 7:54:52 am] POST /apiv2/login
+[March 22nd 2016, 7:58:58 am] Listening server on port 8080
+[March 22nd 2016, 7:59:49 am] Listening server on port 8080
+[March 22nd 2016, 7:59:49 am] GET /
+[March 22nd 2016, 7:59:49 am] GET /favicon.ico
+[March 29th 2016, 11:02:41 pm] Listening server on port 8080
+[March 29th 2016, 11:02:41 pm] OPTIONS /apiv2/login
+[March 29th 2016, 11:19:08 pm] Listening server on port 8080
+[March 29th 2016, 11:19:08 pm] OPTIONS /apiv2/login
+[March 29th 2016, 11:19:08 pm] POST /apiv2/login
+[April 5th 2016, 12:48:40 pm] Listening server on port 8080
+[April 5th 2016, 12:48:40 pm] POST /apiv2/login
+[April 5th 2016, 12:48:40 pm] GET /apiv2/getpowerstatus?_=1459853287272
+[April 5th 2016, 12:48:40 pm] testuser
+[April 5th 2016, 12:48:40 pm] testuser
+[April 5th 2016, 12:48:40 pm] Userid: testuser
+[April 5th 2016, 12:48:40 pm] GET /apiv2/gettoday?_=1459853287273
+[April 5th 2016, 12:48:40 pm] testuser
+[April 5th 2016, 12:48:40 pm] testuser
+[April 5th 2016, 12:48:40 pm] Userid: testuser
+[April 5th 2016, 12:48:40 pm] 
+[April 5th 2016, 12:48:40 pm] POST /apiv2/postpower
+[April 5th 2016, 12:48:40 pm] testuser
+[April 5th 2016, 12:48:40 pm] testuser
+[April 5th 2016, 12:48:40 pm] Userid: testuser
+[April 5th 2016, 12:48:40 pm] [object Object]
+[April 5th 2016, 12:48:40 pm] GET /apiv2/getpowerstatus?_=1459853287274
+[April 5th 2016, 12:48:40 pm] testuser
+[April 5th 2016, 12:48:40 pm] testuser
+[April 5th 2016, 12:48:40 pm] Userid: testuser
+[April 5th 2016, 12:48:40 pm] POST /apiv2/login
+[April 5th 2016, 12:48:40 pm] POST /apiv2/login
+[April 5th 2016, 12:48:40 pm] POST /apiv2/login
+[April 5th 2016, 12:48:40 pm] GET /apiv2/getpowerstatus?_=1459854396501
+[April 5th 2016, 12:48:40 pm] testuser
+[April 5th 2016, 12:48:40 pm] testuser
+[April 5th 2016, 12:48:40 pm] Userid: testuser
+[April 5th 2016, 1:06:59 pm] Listening server on port 8080
+[April 5th 2016, 1:06:59 pm] POST /apiv2/login
+[April 5th 2016, 1:06:59 pm] GET /apiv2/getpowerstatus?_=1459854421838
+[April 5th 2016, 1:06:59 pm] testuser
+[April 5th 2016, 1:06:59 pm] testuser
+[April 5th 2016, 1:06:59 pm] Userid: testuser
+[April 5th 2016, 1:30:01 pm] Listening server on port 8080
+[April 5th 2016, 1:30:01 pm] POST /apiv2/login
+[April 5th 2016, 1:30:01 pm] GET /apiv2/getpowerstatus?_=1459855807271
+[April 5th 2016, 1:30:01 pm] testuser
+[April 5th 2016, 1:30:01 pm] testuser
+[April 5th 2016, 1:30:01 pm] Userid: testuser
+[April 5th 2016, 1:30:43 pm] Listening server on port 8080
+[April 5th 2016, 1:30:43 pm] POST /apiv2/login
+[April 5th 2016, 1:30:43 pm] GET /apiv2/getpowerstatus?_=1459855847241
+[April 5th 2016, 1:30:43 pm] testuser
+[April 5th 2016, 1:30:43 pm] testuser
+[April 5th 2016, 1:30:43 pm] Userid: testuser
+[April 5th 2016, 1:31:16 pm] Listening server on port 8080
+[April 5th 2016, 1:31:16 pm] POST /apiv2/login
+[April 5th 2016, 1:31:16 pm] GET /apiv2/getpowerstatus?_=1459855880386
+[April 5th 2016, 1:31:16 pm] testuser
+[April 5th 2016, 1:31:16 pm] testuser
+[April 5th 2016, 1:31:16 pm] Userid: testuser
+[April 5th 2016, 1:31:16 pm] Gegevens db: undefined undefined undefined undefined 
+[April 5th 2016, 1:31:16 pm] [object Object]
+[April 5th 2016, 1:43:40 pm] Listening server on port 8080
+[April 5th 2016, 1:43:40 pm] POST /apiv2/login
+[April 5th 2016, 1:43:40 pm] GET /apiv2/getpowerstatus?_=1459856624119
+[April 5th 2016, 1:43:40 pm] testuser
+[April 5th 2016, 1:43:40 pm] testuser
+[April 5th 2016, 1:43:40 pm] Userid: testuser
+[April 5th 2016, 1:43:40 pm] Gegevens db: Localhost: undefined dbuser: undefined dbpassword: undefined database: undefined secretkey: FmonCSGripEnergyMonitor-123454321AbCd-
+[April 5th 2016, 1:43:40 pm] [object Object]
+[April 5th 2016, 1:43:40 pm] GET /apiv2/getpowerstatus?_=1459856624120
+[April 5th 2016, 1:43:40 pm] testuser
+[April 5th 2016, 1:43:40 pm] testuser
+[April 5th 2016, 1:43:40 pm] Userid: testuser
+[April 5th 2016, 1:43:40 pm] Gegevens db: Localhost: undefined dbuser: undefined dbpassword: undefined database: undefined secretkey: FmonCSGripEnergyMonitor-123454321AbCd-
+[April 5th 2016, 1:43:40 pm] [object Object]
+[April 5th 2016, 1:43:40 pm] GET /apiv2/getpowerstatus?_=1459856624121
+[April 5th 2016, 1:43:40 pm] testuser
+[April 5th 2016, 1:43:40 pm] testuser
+[April 5th 2016, 1:43:40 pm] Userid: testuser
+[April 5th 2016, 1:43:40 pm] Gegevens db: Localhost: undefined dbuser: undefined dbpassword: undefined database: undefined secretkey: FmonCSGripEnergyMonitor-123454321AbCd-
+[April 5th 2016, 1:43:40 pm] [object Object]
+[April 5th 2016, 1:44:47 pm] Listening server on port 8080
+[April 5th 2016, 1:44:47 pm] POST /apiv2/login
+[April 5th 2016, 1:44:47 pm] GET /apiv2/getpowerstatus?_=1459856624122
+[April 5th 2016, 1:44:47 pm] testuser
+[April 5th 2016, 1:44:47 pm] testuser
+[April 5th 2016, 1:44:47 pm] Userid: testuser
+[April 5th 2016, 1:44:47 pm] Gegevens db: Localhost: undefined dbuser: undefined dbpassword: undefined database: undefined secretkey: FmonCSGripEnergyMonitor-123454321AaaaabCd-
+[April 5th 2016, 1:44:47 pm] [object Object]
+[April 5th 2016, 1:52:52 pm] Listening server on port 8080
+[April 5th 2016, 1:52:52 pm] POST /apiv2/login
+[April 5th 2016, 1:52:52 pm] GET /apiv2/getpowerstatus?_=1459856624123
+[April 5th 2016, 1:52:52 pm] testuser
+[April 5th 2016, 1:52:52 pm] testuser
+[April 5th 2016, 1:52:52 pm] Userid: testuser
+[April 5th 2016, 1:52:52 pm] Gegevens db: Localhost: undefined dbuser: root dbpassword:  database: undefined secretkey: FmonCSGripEnergyMonitor-123454321AbCd-
+[April 5th 2016, 1:52:52 pm] [object Object]
+[April 5th 2016, 1:54:25 pm] Listening server on port 8080
+[April 5th 2016, 1:54:25 pm] POST /apiv2/login
+[April 5th 2016, 1:54:25 pm] GET /apiv2/getpowerstatus?_=1459856624124
+[April 5th 2016, 1:54:25 pm] testuser
+[April 5th 2016, 1:54:25 pm] testuser
+[April 5th 2016, 1:54:25 pm] Userid: testuser
+[April 5th 2016, 1:54:25 pm] dbhost: localhost dbuser: root dbpassword:  database: nodejs secretkey: FmonCSGripEnergyMonitor-123454321AbCd-
+[April 5th 2016, 1:54:25 pm] [object Object]
+[April 5th 2016, 2:00:59 pm] Listening server on port 8080
+[April 5th 2016, 2:00:59 pm] POST /apiv2/login
+[April 5th 2016, 2:00:59 pm] GET /apiv2/getpowerstatus?_=1459856624125
+[April 5th 2016, 2:00:59 pm] testuser
+[April 5th 2016, 2:00:59 pm] testuser
+[April 5th 2016, 2:00:59 pm] Userid: testuser
+[April 5th 2016, 2:00:59 pm] Error: ER_NO_DB_ERROR: No database selected
+    at Query.Sequence._packetToError (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:201:25)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\routes_apiv2.js:132:13
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:271:10)
+[April 5th 2016, 2:02:47 pm] Listening server on port 8080
+[April 5th 2016, 2:02:47 pm] GET /apiv2/getpowerstatus?_=1459856624125
+[April 5th 2016, 2:02:47 pm] testuser
+[April 5th 2016, 2:02:47 pm] testuser
+[April 5th 2016, 2:02:47 pm] Userid: testuser
+[April 5th 2016, 2:02:47 pm] Error: ER_NO_SUCH_TABLE: Table 'nodejs.power' doesn't exist
+    at Query.Sequence._packetToError (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:201:25)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\routes_apiv2.js:132:13
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:271:10)
+[April 5th 2016, 2:02:47 pm] POST /apiv2/login
+[April 5th 2016, 2:02:47 pm] GET /apiv2/getpowerstatus?_=1459857769511
+[April 5th 2016, 2:02:47 pm] testuser
+[April 5th 2016, 2:02:47 pm] testuser
+[April 5th 2016, 2:02:47 pm] Userid: testuser
+[April 5th 2016, 2:02:47 pm] Error: ER_NO_SUCH_TABLE: Table 'nodejs.power' doesn't exist
+    at Query.Sequence._packetToError (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:201:25)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\routes_apiv2.js:132:13
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:271:10)
+[April 5th 2016, 2:02:47 pm] POST /apiv2/login
+[April 5th 2016, 2:02:47 pm] GET /apiv2/getpowerstatus?_=1459857769512
+[April 5th 2016, 2:02:47 pm] testuser
+[April 5th 2016, 2:02:47 pm] testuser
+[April 5th 2016, 2:02:47 pm] Userid: testuser
+[April 5th 2016, 2:02:47 pm] Error: ER_NO_SUCH_TABLE: Table 'nodejs.power' doesn't exist
+    at Query.Sequence._packetToError (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Sequence.js:48:14)
+    at Query.ErrorPacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\sequences\Query.js:83:18)
+    at Protocol._parsePacket (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:280:23)
+    at Parser.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Parser.js:73:12)
+    at Protocol.write (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Connection.query (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\mysql\lib\Connection.js:201:25)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\routes_apiv2.js:132:13
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\layer.js:95:5)
+    at D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:277:22
+    at Function.process_params (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:330:12)
+    at next (D:\avans\Jaar 2\Periode 3\Linux\miniproject\node_modules\express\lib\router\index.js:271:10)
+[April 5th 2016, 2:03:52 pm] Listening server on port 8080
+[April 5th 2016, 2:03:52 pm] GET /apiv2/getpowerstatus?_=1459857769512
+[April 5th 2016, 2:03:52 pm] GET /apiv2/getpowerstatus?_=1459857769511
+[April 5th 2016, 2:03:52 pm] testuser
+[April 5th 2016, 2:03:52 pm] testuser
+[April 5th 2016, 2:03:52 pm] Userid: testuser
+[April 5th 2016, 2:03:52 pm] testuser
+[April 5th 2016, 2:03:52 pm] testuser
+[April 5th 2016, 2:03:52 pm] Userid: testuser
+[April 5th 2016, 2:03:52 pm] [object Object]
+[April 5th 2016, 2:03:52 pm] [object Object]
+[April 5th 2016, 4:23:31 pm] Listening server on port 8080
+[April 5th 2016, 4:23:31 pm] OPTIONS /apiv2/login
+[April 5th 2016, 4:23:31 pm] OPTIONS /apiv2/login
+[April 5th 2016, 4:51:46 pm] Listening server on port 8080
+[April 5th 2016, 4:51:46 pm] POST /apiv2/login
+[April 5th 2016, 4:51:46 pm] POST /apiv2/login
+[April 5th 2016, 4:53:27 pm] Listening server on port 8080
+[April 5th 2016, 4:55:36 pm] Listening server on port 8080
+[April 5th 2016, 4:55:36 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] Listening server on port 8080
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] OPTIONS /apiv2/login
+[April 5th 2016, 5:05:00 pm] OPTIONS /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:05:00 pm] POST /apiv2/login
+[April 5th 2016, 5:29:40 pm] Listening server on port 8080
+[April 5th 2016, 5:29:40 pm] POST /apiv2/login
+[April 5th 2016, 5:29:40 pm] GET /apiv2/getpowerstatus?_=1459870161902
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] Userid: testuser
+[April 5th 2016, 5:29:40 pm] [object Object]
+[April 5th 2016, 5:29:40 pm] POST /apiv2/login
+[April 5th 2016, 5:29:40 pm] GET /apiv2/getpowerstatus?_=1459870313987
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] Userid: testuser
+[April 5th 2016, 5:29:40 pm] [object Object]
+[April 5th 2016, 5:29:40 pm] GET /apiv2/getpowerstatus?_=1459870313988
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] Userid: testuser
+[April 5th 2016, 5:29:40 pm] [object Object]
+[April 5th 2016, 5:29:40 pm] POST /apiv2/login
+[April 5th 2016, 5:29:40 pm] GET /apiv2/getpowerstatus?_=1459870719930
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] Userid: testuser
+[April 5th 2016, 5:29:40 pm] [object Object]
+[April 5th 2016, 5:29:40 pm] POST /apiv2/postpower
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] Userid: testuser
+[April 5th 2016, 5:29:40 pm] [object Object]
+[April 5th 2016, 5:29:40 pm] POST /apiv2/postpower
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] Userid: testuser
+[April 5th 2016, 5:29:40 pm] [object Object]
+[April 5th 2016, 5:29:40 pm] GET /apiv2/get7days?_=1459870719931
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] Userid: testuser
+[April 5th 2016, 5:29:40 pm] [object Object],[object Object],[object Object]
+[April 5th 2016, 5:29:40 pm] GET /apiv2/gettoday?_=1459870719932
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] Userid: testuser
+[April 5th 2016, 5:29:40 pm] [object Object],[object Object],[object Object]
+[April 5th 2016, 5:29:40 pm] POST /apiv2/login
+[April 5th 2016, 5:29:40 pm] POST /apiv2/login
+[April 5th 2016, 5:29:40 pm] POST /apiv2/login
+[April 5th 2016, 5:29:40 pm] POST /apiv2/login
+[April 5th 2016, 5:29:40 pm] POST /apiv2/login
+[April 5th 2016, 5:29:40 pm] POST /apiv2/login
+[April 5th 2016, 5:29:40 pm] POST /apiv2/login
+[April 5th 2016, 5:29:40 pm] GET /apiv2/getpowerstatus?_=1459872360277
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] Userid: testuser
+[April 5th 2016, 5:29:40 pm] [object Object]
+[April 5th 2016, 5:29:40 pm] POST /apiv2/postpower
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] Userid: testuser
+[April 5th 2016, 5:29:40 pm] [object Object]
+[April 5th 2016, 5:29:40 pm] POST /apiv2/postpower
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] testuser
+[April 5th 2016, 5:29:40 pm] Userid: testuser
+[April 5th 2016, 5:29:40 pm] [object Object]

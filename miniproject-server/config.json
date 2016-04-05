@@ -1,0 +1,11 @@
+{
+	"secretkey" 	: "FmonCSGripEnergyMonitor-123454321AbCd-",
+	"username"		: "testuser",
+	"password"  	: "testpassword",
+	"database"		: "linux",
+	"webPort"		: "8080",
+	"dbhost"		: "localhost",
+	"dbuser"		: "root",
+	"dbpassword"	: "",
+	"dbname"		: "linux"
+}

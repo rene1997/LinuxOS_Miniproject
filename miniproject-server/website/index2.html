@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset='UTF-8'>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+<meta name="author" content="Davey Mathijssen - Avans">
+<link rel="icon" href="">
+<title>Miniproject OS Linux</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<link href="bootstrap/css/dashboard.css" rel="stylesheet">
+<link href="main.css" rel="stylesheet">
+<script src="jquery.min.js"></script>
+<script src="canvasjs-1.8.0/jquery.canvasjs.min.js"></script>
+<script src="api.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<link href="http://getbootstrap.com/assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+<!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript">
+	window.onload = function () {
+	
+		getToken();
+
+      var dps = [{x: 1, y: 10}, {x: 2, y: 13}, {x: 3, y: 18}, {x: 4, y: 20}, {x: 5, y: 17},{x: 6, y: 10}, {x: 7, y: 13}, {x: 8, y: 18}, {x: 9, y: 20}, {x: 10, y: 17}];   //dataPoints. 
+
+      var chart = new CanvasJS.Chart("chartContainer",{
+      	title :{
+      		text: "Live Data"
+      	},
+      	axisX: {						
+      		title: "Axis X Title"
+      	},
+      	axisY: {						
+      		title: "Units"
+      	},
+      	data: [{
+      		type: "line",
+      		dataPoints : dps
+      	}]
+      });
+
+      chart.render();
+      var xVal = dps.length + 1;
+      var yVal = 15;	
+      var updateInterval = 1000;
+
+      var updateChart = function () {
+      	
+      	
+      	yVal = yVal +  Math.round(5 + Math.random() *(-5-5));
+      	dps.push({x: xVal,y: yVal});
+      	
+      	xVal++;
+      	if (dps.length >  10 )
+      	{
+      		dps.shift();				
+      	}
+
+      	chart.render();		
+
+	// update chart after specified time. 
+
+};
+
+setInterval(function(){updateChart()}, updateInterval); 
+}
+</script>
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/index.html">Miniproject OS Linux</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+			<li><a href="#" onclick="return false;">ONLINE</a></li>
+            <li><a href="/overzicht.php">Overzicht</a></li>
+            <li><a href="/geschiedenis.php">Geschiedenis</a></li>
+            <li><a href="/help.php">Help</a></li>
+			<li><a href="?logout">Log uit</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+			<input type="week" class="form-control" data-provide="datepicker">
+            <!--<input type="text" class="form-control" placeholder="Search...">-->
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li><a href="/overzicht.php">Overzicht <span class="sr-only">(current)</span></a></li>
+            <li><a href="/geschiedenis.php">Geschiedenis</a></li>
+            <li><a href="/help.php">Help</a></li>
+            <li><a href="?logout">Log uit</a></li>
+          </ul>
+          <h4>Beheer</h4>
+          <ul class="nav nav-sidebar">
+            <li><a href="/kit-uitlenen.php">Kit uitlenen</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="/openstaande-uitleningen.php">Openstaande uitleningen</a></li>
+            <li><a href="/uitleen-geschiedenis.php">Uitleengeschiedenis</a></li>
+          </ul>
+          <ul class="nav nav-sidebar">
+            <li><a href="/openstaande-reserveringen.php">Reserveringen</a></li>
+			<li><a href="/reserverings-geschiedenis.php">Reserveringsgeschiedenis</a></li>
+			<li><a href="/reservering-toevoegen.php">Reservering toevoegen</a></li>
+          </ul>
+		  <ul class="nav nav-sidebar">
+            <li><a href="/kits.php">Kits</a></li>
+          </ul>
+		  <ul class="nav nav-sidebar">
+            <li><a href="/gebruikers.php">Gebruikers</a></li>
+          </ul>
+        </div>
+		<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Overzicht</h1>
+		  <p>Bij elke tabel een filter en zoek optie toevoegen</p>
+		  <h3 class="sub-header">Leningen</h3>
+		  <button id="token" onclick="getToken();" class="btn btn-primary"><span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> Get token</button>
+		  <br><br><br>
+		  <button id="powerstatus" onclick="getPowerStatus();" class="btn btn-primary"><span class="glyphicon glyphicon-flash" aria-hidden="true"></span> Get power status</button>
+		  <button id="poweron" onclick="postPowerOn();" class="btn btn-primary"><span class="glyphicon glyphicon-euro" aria-hidden="true"></span> Post power on</button>
+		  <button id="poweroff" onclick="postPowerOff();" class="btn btn-primary"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span> Post power off</button>
+		  <button id="7days" onclick="get7days();" class="btn btn-primary"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span> Get 7 days history</button>
+		  <button id="today" onclick="getToday();" class="btn btn-primary"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span> Get today</button>
+
+		  <div style="border:1px dotted red;padding:10px;" id="messages"></div>
+
+		  <div id="chartContainer" style="height: 300px; width: 100%;"></div>
+        </div>
+      </div>
+    </div>
+<div class="footer">
+	<p class="footer-left"><a class="footer-link" href="/versie.php">Miniproject versie 1.0</a></p><p class="footer-right">&copy; 2016 - Davey Mathijssen en René Keijzer</p>
+</div>
+
+</body>
+</html>
