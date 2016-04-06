@@ -3,7 +3,7 @@ $.support.cors = true;
 var token = '';// = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJ0ZXN0dXNlciIsImV4cCI6MTQ1NzUyODExMjM3NX0.dWhyfPXkNuBAtNBv_GXdah_0puCYtIFR5SosXe2BwW0';
 var host = location.host;
 var lamp = 0;
-var statusses = new Array("1", "0", "1");
+var lampData = [];
 function getToken()
 {
 	$.ajax({
@@ -91,6 +91,11 @@ function getToday()
 			},
 			success: function (data) {
 				$("#messages").append("<p>Todays power status: " + JSON.stringify(data) +"</p>");
+
+				var i = null;
+				for (i = 0; data.length > i; i += 1) {
+					lampData.push({x: data[i].idpower,y: data[i].power});
+				}					
 			}
 		});
 	}else{
@@ -159,47 +164,76 @@ function showLamp()
 }
 
 function initGraph(){
-
-var dps = [{x: 1, y: 10}, {x: 2, y: 13}, {x: 3, y: 18}, {x: 4, y: 20}, {x: 5, y: 17},{x: 6, y: 10}, {x: 7, y: 13}, {x: 8, y: 18}, {x: 9, y: 20}, {x: 10, y: 17}];   //dataPoints. 
-
-      var chart = new CanvasJS.Chart("chartContainer",{
-      	title :{
-      		text: "Live Data"
-      	},
-      	axisX: {						
+	var chart = new CanvasJS.Chart("chartContainer", {
+		title:{
+			text: "Power status"              
+		},
+		axisX: {						
       		title: "Time"
       	},
       	axisY: {						
       		title: "Power on off"
       	},
-      	data: [{
-      		type: "line",
-      		dataPoints : dps
-      	}]
-      });
+		data: [              
+		{
+			type: "line",
+			dataPoints: lampData
+		}
+		]
+	});
+	chart.render();
+	
+    var updateChart = function () {
+		//getToday();
+		chart.render();		
+	};
 
-      chart.render();
-      var xVal = dps.length + 1;
-      var yVal = 15;	
-      var updateInterval = 1000;
+setInterval(function(){updateChart()}, 1000); 
+}
 
-      var updateChart = function () {
+
+// function initGraph(){
+
+// var dps = [{x: 1, y: 10}, {x: 2, y: 13}, {x: 3, y: 18}, {x: 4, y: 20}, {x: 5, y: 17},{x: 6, y: 10}, {x: 7, y: 13}, {x: 8, y: 18}, {x: 9, y: 20}, {x: 10, y: 17}];   //dataPoints. 
+
+      // var chart = new CanvasJS.Chart("chartContainer",{
+      	// title :{
+      		// text: "Live Data"
+      	// },
+      	// axisX: {						
+      		// title: "Time"
+      	// },
+      	// axisY: {						
+      		// title: "Power on off"
+      	// },
+      	// data: [{
+      		// type: "line",
+      		// dataPoints : dps
+      	// }]
+      // });
+
+      // chart.render();
+      // var xVal = dps.length + 1;
+      // var yVal = 15;	
+      // var updateInterval = 1000;
+
+      // var updateChart = function () {
       	
       	
-      	yVal = yVal +  Math.round(5 + Math.random() *(-5-5));
-      	dps.push({x: xVal,y: yVal});
+      	// yVal = yVal +  Math.round(5 + Math.random() *(-5-5));
+      	// dps.push({x: xVal,y: yVal});
       	
-      	xVal++;
-      	if (dps.length >  10 )
-      	{
-      		dps.shift();				
-      	}
+      	// xVal++;
+      	// if (dps.length >  10 )
+      	// {
+      		// dps.shift();				
+      	// }
 
-      	chart.render();		
+      	// chart.render();		
 
 	// update chart after specified time. 
 
-};
+// };
 
-setInterval(function(){updateChart()}, updateInterval); 
-}
+// setInterval(function(){updateChart()}, updateInterval); 
+// }
