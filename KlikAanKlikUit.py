@@ -12,12 +12,12 @@ GPIO.setmode(GPIO.BCM)
 #function to klik aan
 def KlikAan():
     #command to go to correct directory and turn lights on
-    os.system("cd klikaanklikuit/wiringPi/examples/lights; ./kaku M 14 on")
+    os.system("cd klikaanklikuit/wiringPi/lights; ./kaku M 14 on")
 
 #function to klik uit
 def KlikUit():
     #go to correct directory
-    os.system("cd klikaanklikuit/wiringPi/examples/lights; ./kaku M 14 off")
+    os.system("cd klikaanklikuit/wiringPi/lights; ./kaku M 14 off")
 
 
 #turn klik on
@@ -28,4 +28,8 @@ time.sleep(10)
 
 #turn klik off
 KlikUit()       
-        
+
+
+time.sleep(4)
+
+KlikAan()        
