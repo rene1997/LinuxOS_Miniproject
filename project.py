@@ -11,6 +11,9 @@ PIR_PIN = 15
 #connect LDR to pin 18
 LDR_PIN = 18
 
+#kaku status, 0 = off, 1 = on
+kakustate = 1
+
 #set GPIO pin numbering
 GPIO.setmode(GPIO.BCM)
 
@@ -34,18 +37,23 @@ def CheckLightSensor():
 	return measurement
 
 #function to klik aan
-def KlikAan(KAKU_STATUS):
-	if(KAKU_STATUS == 0):
+def KlikAan():
+	global kakustate
+	if(kakustate == 0):
     		#command to go to correct directory and turn lights on
     		os.system("cd klikaanklikuit/wiringPi/lights; ./kaku M 14 on")
-		KAKU_STATUS = 1
+		
+		kakustate += 1
 #function to klik uit
-def KlikUit(KAKU_STATUS):
-	if(KAKU_STATUS == 1):
+def KlikUit():
+	global kakustate
+	if(kakustate == 1):
     		#go to correct directory
     		os.system("cd klikaanklikuit/wiringPi/lights; ./kaku M 14 off")
-		KAKU_STATUS = 0
-def MOTION(Kaku_Status):
+		#global kakusate
+		kakustate -= 1
+
+def MOTION():
 	
 	#status = input from PIR PIN
 	#1 = high = motion detected
@@ -59,14 +67,14 @@ def MOTION(Kaku_Status):
 		#how higher, how darker
 		if(lightstatus >  300):
 			print"klik aan"	
-			KlikAan(Kaku_Status)
+			KlikAan()
 		else:
 			print"niet donker genoeg"
-			KlikUit(Kaku_Status)
+			KlikUit()
 		
 	else:
 		print "no motion anymore!, klik uit"
-		KlikUit(Kaku_Status)
+		KlikUit()
 
 
 
@@ -81,8 +89,7 @@ print"power on kaku in 2 seconds!"
 time.sleep(3)
 
 #talk to kaku to send connect
-Kaku_Status = 0
-KlikUit(Kaku_Status)
+KlikUit()
 
 print"ready"
 
@@ -93,8 +100,8 @@ try:
 
     	#while true
     	while True:
-		MOTION(Kaku_Status)
-		print"Kaku Status: %s" % Kaku_Status	
+		MOTION()
+		print"Kaku Status: %s" % kakustate	
         	time.sleep(5)
         	           
 except KeyboardInterrupt:
