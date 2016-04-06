@@ -1332,3 +1332,268 @@
 [April 5th 2016, 5:29:40 pm] testuser
 [April 5th 2016, 5:29:40 pm] Userid: testuser
 [April 5th 2016, 5:29:40 pm] [object Object]
+[April 5th 2016, 6:07:16 pm] Listening server on port 8080
+[April 5th 2016, 7:11:01 pm] Listening server on port 8080
+[April 5th 2016, 7:17:13 pm] Listening server on port 8080
+[April 5th 2016, 7:17:13 pm] POST /apiv2/login
+[April 5th 2016, 7:17:13 pm] POST /apiv2/login
+[April 5th 2016, 7:17:13 pm] POST /apiv2/login
+[April 5th 2016, 7:17:13 pm] POST /apiv2/login
+[April 5th 2016, 7:17:13 pm] POST /apiv2/postpower
+[April 5th 2016, 7:17:13 pm] testuser
+[April 5th 2016, 7:17:13 pm] testuser
+[April 5th 2016, 7:17:13 pm] Userid: testuser
+[April 5th 2016, 7:17:13 pm] Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:48:14)
+    at Handshake.ErrorPacket (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/sequences/Handshake.js:101:18)
+    at Protocol._parsePacket (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/Connection.js:123:18)
+    at /home/pi/LinuxOs_MiniProject/miniproject-server/routes_apiv2.js:146:13
+    at Layer.handle [as handle_request] (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/express/lib/router/index.js:330:12)
+[April 5th 2016, 7:17:13 pm] POST /apiv2/postpower
+[April 5th 2016, 7:17:13 pm] testuser
+[April 5th 2016, 7:17:13 pm] testuser
+[April 5th 2016, 7:17:13 pm] Userid: testuser
+[April 5th 2016, 7:17:13 pm] Error: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/sequences/Sequence.js:48:14)
+    at Handshake.ErrorPacket (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/sequences/Handshake.js:101:18)
+    at Protocol._parsePacket (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/Protocol.js:280:23)
+    at Parser.write (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/Parser.js:73:12)
+    at Protocol.write (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/Connection.js:96:28)
+    at emitOne (events.js:77:13)
+    at Socket.emit (events.js:169:7)
+    at readableAddChunk (_stream_readable.js:146:16)
+    at Socket.Readable.push (_stream_readable.js:110:10)
+    --------------------
+    at Protocol._enqueue (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/Protocol.js:141:48)
+    at Protocol.handshake (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/mysql/lib/Connection.js:123:18)
+    at /home/pi/LinuxOs_MiniProject/miniproject-server/routes_apiv2.js:146:13
+    at Layer.handle [as handle_request] (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/express/lib/router/layer.js:95:5)
+    at /home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/pi/LinuxOs_MiniProject/miniproject-server/node_modules/express/lib/router/index.js:330:12)
+[April 5th 2016, 7:22:27 pm] Listening server on port 8080
+[April 5th 2016, 7:22:27 pm] POST /apiv2/login
+[April 5th 2016, 7:22:27 pm] POST /apiv2/postpower
+[April 5th 2016, 7:22:27 pm] testuser
+[April 5th 2016, 7:22:27 pm] testuser
+[April 5th 2016, 7:22:27 pm] Userid: testuser
+[April 5th 2016, 7:22:27 pm] [object Object]
+[April 6th 2016, 9:09:43 am] Listening server on port 8080
+[April 6th 2016, 9:09:43 am] OPTIONS /apiv2/login
+[April 6th 2016, 9:09:43 am] OPTIONS /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459934200996
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459934200997
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459934200998
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/postpower
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] OPTIONS /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/postpower
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/postpower
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459936190435
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459936385783
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/postpower
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459936385784
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459936385785
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459936417063
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459936525499
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459936773138
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459936804580
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459936917967
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937010286
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937048173
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937096717
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/postpower
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937096718
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/postpower
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937096719
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937096720
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937142132
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/postpower
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937142133
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937358270
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937375114
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937403502
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937443562
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937443563
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
+[April 6th 2016, 9:09:43 am] POST /apiv2/login
+[April 6th 2016, 9:09:43 am] GET /apiv2/getpowerstatus?_=1459937565251
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] testuser
+[April 6th 2016, 9:09:43 am] Userid: testuser
+[April 6th 2016, 9:09:43 am] [object Object]
