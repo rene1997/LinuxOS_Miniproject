@@ -2,6 +2,10 @@ import RPi.GPIO as GPIO
 import time
 import os
 
+from connection import getToken
+from connection import postPower
+from connection import getPower
+
 #connect kika to pin 14
 KAKU_PIN = 14
 
@@ -42,7 +46,7 @@ def KlikAan():
 	if(kakustate == 0):
     		#command to go to correct directory and turn lights on
     		os.system("cd klikaanklikuit/wiringPi/lights; ./kaku M 14 on")
-		
+		postPower(1)
 		kakustate += 1
 #function to klik uit
 def KlikUit():
@@ -50,6 +54,7 @@ def KlikUit():
 	if(kakustate == 1):
     		#go to correct directory
     		os.system("cd klikaanklikuit/wiringPi/lights; ./kaku M 14 off")
+		postPower(0)
 		#global kakusate
 		kakustate -= 1
 
@@ -80,6 +85,7 @@ def MOTION():
 
 #main:
 
+getToken()
  
 #print some text in terminal
 print"PIR MODULE TEST (CTRL + C to exit"
@@ -101,7 +107,12 @@ try:
     	#while true
     	while True:
 		MOTION()
-		print"Kaku Status: %s" % kakustate	
+		print"power van api aan het halen..."
+		power = getPower()
+		if(power == 1):
+			KlikAan()
+		elif(power == 0):
+			KlikUit()
         	time.sleep(5)
         	           
 except KeyboardInterrupt:
