@@ -45,7 +45,8 @@ def KlikAan():
 	global kakustate
 	if(kakustate == 0):
     		#command to go to correct directory and turn lights on
-    		os.system("cd klikaanklikuit/wiringPi/lights; ./kaku M 14 on")
+    		print"klik aan verzenden:"
+		os.system("cd klikaanklikuit/wiringPi/lights; ./kaku M 14 on")
 		postPower(1)
 		kakustate += 1
 #function to klik uit
@@ -53,6 +54,7 @@ def KlikUit():
 	global kakustate
 	if(kakustate == 1):
     		#go to correct directory
+		print"klik uit verzende:"
     		os.system("cd klikaanklikuit/wiringPi/lights; ./kaku M 14 off")
 		postPower(0)
 		#global kakusate
@@ -111,7 +113,11 @@ try:
 		power = getPower()
 		if(power == 1):
 			KlikAan()
-		elif(power == 0):
+			while (power == 1):
+				time.sleep(3)
+				power = getPower()
+
+		if(power == 0):
 			KlikUit()
         	time.sleep(5)
         	           
