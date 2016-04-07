@@ -9,11 +9,11 @@ def getToken():
 	r = requests.post('http://localhost:8080/apiv2/login', data = jsondata)
 	#data = json.loads(r)
 	global token
+		
 	print"gettoken returns: %s" % r.text
 	
 	#print(r.json)
 	resp_dict = json.loads(r.text)
-	#resp_dict['token']
 	token = resp_dict["token"]
 	print "token is: %s" %  token
 

@@ -110,14 +110,15 @@ try:
     	while True:
 		MOTION()
 		print"power van api aan het halen..."
-		power = getPower()
-		if(power == 1):
-			KlikAan()
-			while (power == 1):
-				time.sleep(3)
-				power = getPower()
+		powerapi = getPower()
+		if(powerapi == 1):
+			if(kakustate == 0):		
+				KlikAan()
+				while (powerapi == 1):
+					time.sleep(3)
+					powerapi = getPower()
 
-		if(power == 0):
+		if(powerapi == 0):
 			KlikUit()
         	time.sleep(5)
         	           

@@ -27,9 +27,4 @@ KlikAan()
 time.sleep(10)
 
 #turn klik off
-KlikUit()       
-
-
-time.sleep(4)
-
-KlikAan()        
+KlikUit()               
