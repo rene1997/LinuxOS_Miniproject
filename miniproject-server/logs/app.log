@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [March 8th 2016, 10:12:17 pm] Listening server on port 8080
 [March 8th 2016, 10:12:17 pm] GET /
 [March 8th 2016, 10:12:17 pm] POST /api/login
@@ -47465,3 +47466,5 @@
 [April 7th 2016, 7:26:42 am] testuser
 [April 7th 2016, 7:26:42 am] Userid: testuser
 [April 7th 2016, 7:26:42 am] [object Object]
+=======
+>>>>>>> 2bc9df1b887d16585525d59ee999e51ead9f68da
